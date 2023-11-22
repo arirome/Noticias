@@ -1,0 +1,9 @@
+/* Aumenta el tamaño de las etiquetas de las calles en zoom 15 o superior */
+.leaflet-label-pane .leaflet-zoom-animated[style*="15.00"] .leaflet-label {
+    font-size: 16px;
+}
+
+/* Ajusta los tamaños de fuente según tus necesidades para cada nivel de zoom */
+.leaflet-label-pane .leaflet-zoom-animated[style*="16.00"] .leaflet-label {
+    font-size: 18px;
+}
